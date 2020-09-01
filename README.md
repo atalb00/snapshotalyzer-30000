@@ -13,7 +13,8 @@ shotty uses the confirugation file created by the AWS cli. ex.
 
 ## Running
 
-`pipenv run python shotty\shotty.<command><--project=PROJECT>`
+`pipenv run python shotty\shotty.<command> <subcommand> <--project=PROJECT>`
 
-*command* is list, start, or stop
+*command* is instances, volumes, snapshots
+*subcommand* depends on command
 *project* is optional
